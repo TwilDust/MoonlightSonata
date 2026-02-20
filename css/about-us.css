@@ -1,0 +1,9 @@
+@import url(./fonts.css);
+
+#about-us h2 {
+    font-family: "Finlandica", sans-serif;
+    color: #141414;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: start;
+}

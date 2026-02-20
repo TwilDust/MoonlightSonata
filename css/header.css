@@ -1,0 +1,93 @@
+@import url(./fonts.css);
+
+header {
+    min-height: 85px;
+    background-color: #9ac6e3;
+    box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 30%);
+
+    padding: 0px 400px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: "Finlandica";
+    color: #030303;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 75px;
+    max-height: 75px;
+    margin-right: 25px;
+}
+
+.logo h1 {
+    font-family: "Great Vibes";
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.header-menu a {
+    margin-right: 30px;
+
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #000;
+    text-decoration: none;
+}
+
+.header-menu a:hover {
+    border-bottom: 2px solid #030303;
+}
+
+.header-menu a:last-child {
+    margin-right: 0px;
+}
+
+#header-tel-number {
+    font-weight: 600;
+}
+
+#header-bg {
+    width: 100%;
+    min-height: 635px;
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.4) 100%
+        ),
+        url(./../../static/image/bg-image.png);
+}
+#menu-btn {
+    display: none;
+}
+
+@media screen and (max-width: 376px) {
+    header {
+        min-height: 85px;
+        background-color: #9ac6e3;
+        box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 30%);
+
+        padding: 0px 15px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        font-family: "Finlandica";
+        color: #030303;
+    }
+    #menu-btn {
+        display: block;
+    }
+}
