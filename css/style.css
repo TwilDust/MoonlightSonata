@@ -216,6 +216,7 @@ section h3 {
 }
 
 .advantage-desc {
+    align-self: center;
     text-align: justify;
     width: 335px;
 }
@@ -400,6 +401,221 @@ footer {
 
 .hidden {
     display: none;
+}
+
+@media screen and (max-width: 426px) and (min-width: 380px) {
+    .mobile-hidden {
+        display: none;
+    }
+
+    section {
+        padding: 0px 15px;
+
+        margin-bottom: 50px;
+    }
+
+    .header-block {
+        max-width: 396px;
+        min-height: 635px;
+
+        margin-bottom: 50px;
+        padding: 0px 15px;
+
+        background-size: cover;
+
+        background-image: url(../images/bg-image.png);
+        background-position: center;
+
+        color: var(--NegativeDefaultTextColor);
+    }
+
+    .header-block h2 {
+        font-size: 24px;
+        font-weight: var(--font-weight-normal);
+
+        max-width: 280px;
+
+        margin: 0;
+    }
+
+    .header-block p {
+        font-size: 22px;
+        font-family: var(--greatVibesFont);
+
+        margin: 20px 0px 0px 20px;
+    }
+
+    .text-block {
+        top: 40px;
+    }
+
+    .mobile-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mobile-column-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .mobile-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-column-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mobile-j-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-j-space-between {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile-a-center {
+        display: flex;
+        align-items: center;
+    }
+
+    .right {
+        text-align: center;
+    }
+
+    .teamate-name {
+        text-align: center;
+    }
+
+    .teamate-desc {
+        font-size: 16px;
+
+        margin-left: 0;
+
+        max-height: fit-content;
+
+        text-align: justify;
+    }
+
+    .card-text {
+        margin-right: 0;
+    }
+
+    .card-icon {
+        max-width: 187px;
+        max-height: 200px;
+    }
+
+    #reperts h3 {
+        margin-bottom: 25px;
+    }
+
+    .custom-next {
+        display: none;
+    }
+
+    .custom-prev {
+        display: none;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 8px;
+
+        background-image: url(./../images/slider-bg-image.png);
+        background-size: cover;
+
+        background-position: center;
+
+        min-height: 500px;
+    }
+
+    .slider-text-block {
+        color: var(--NegativeDefaultTextColor);
+
+        margin: 100px 0px 0px 0px;
+
+        max-width: 411px;
+        max-height: 294px;
+    }
+
+    .slider-text-block p:first-child {
+        font-weight: var(--font-weight-semi-bold);
+        font-size: 24px;
+
+        margin: 0;
+    }
+
+    .slider-text-block p:last-child {
+        font-size: 20px;
+        text-align: justify;
+        margin: 0px 5px;
+    }
+
+    .contacts img {
+        margin-top: 50px;
+        max-width: 395px;
+        max-height: 365px;
+    }
+
+    .personal-text {
+        font-size: 12px;
+    }
+
+    footer {
+        padding: 0px 15px;
+        padding-top: 30px;
+        background-color: #9ac6e3;
+        background: linear-gradient(#9ac6e3, rgba(0, 0, 0, 0.5));
+    }
+
+    .mobile-block {
+        margin-top: 20px;
+        margin-left: 95px;
+    }
+
+    .form-secrion > p {
+        font-size: 16px;
+        font-weight: var(--font-weight-semi-bold);
+    }
+
+    .header-menu a {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .form-secrion input[type="text"] {
+        align-self: center;
+        max-width: 353px;
+        min-width: 353px;
+        max-height: 41px;
+        padding: 7px 11px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+        border: #696969 solid 1px;
+    }
+
+    .form-secrion input[type="email"] {
+        align-self: center;
+        max-width: 353px;
+        min-width: 353px;
+        max-height: 41px;
+        padding: 7px 11px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+        border: #696969 solid 1px;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -592,5 +808,210 @@ footer {
     .header-menu a {
         margin-bottom: 10px;
         margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .mobile-hidden {
+        display: none;
+    }
+
+    section {
+        padding: 0px 5px;
+
+        margin-bottom: 50px;
+    }
+
+    .header-block {
+        max-width: 310px;
+        min-height: 635px;
+
+        margin-bottom: 50px;
+        padding: 0px 5px;
+
+        background-size: cover;
+
+        background-image: url(../images/bg-image.png);
+        background-position: center;
+
+        color: var(--NegativeDefaultTextColor);
+    }
+
+    .header-block h2 {
+        font-size: 24px;
+        font-weight: var(--font-weight-normal);
+
+        max-width: 280px;
+
+        margin: 0;
+    }
+
+    .header-block p {
+        font-size: 22px;
+        font-family: var(--greatVibesFont);
+
+        margin: 20px 0px 0px 20px;
+    }
+
+    .text-block {
+        top: 40px;
+    }
+
+    .mobile-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mobile-column-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .mobile-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-column-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mobile-j-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-j-space-between {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile-a-center {
+        display: flex;
+        align-items: center;
+    }
+
+    .right {
+        text-align: center;
+    }
+
+    .teamate-name {
+        text-align: center;
+    }
+
+    .teamate-desc {
+        font-size: 16px;
+
+        margin-left: 0;
+
+        max-height: fit-content;
+
+        text-align: justify;
+    }
+
+    .card-text {
+        margin-right: 0;
+    }
+
+    .card-icon {
+        max-width: 187px;
+        max-height: 200px;
+    }
+
+    #reperts h3 {
+        margin-bottom: 25px;
+    }
+
+    .custom-next {
+        display: none;
+    }
+
+    .custom-prev {
+        display: none;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 8px;
+
+        background-image: url(./../images/slider-bg-image.png);
+        background-size: cover;
+
+        background-position: center;
+
+        min-height: 500px;
+    }
+
+    .slider-text-block {
+        color: var(--NegativeDefaultTextColor);
+
+        margin: 100px 0px 0px 0px;
+
+        max-width: 411px;
+        max-height: 294px;
+    }
+
+    .slider-text-block p:first-child {
+        font-weight: var(--font-weight-semi-bold);
+        font-size: 24px;
+
+        margin: 0;
+    }
+
+    .slider-text-block p:last-child {
+        font-size: 20px;
+        text-align: justify;
+        margin: 0px 5px;
+    }
+
+    .contacts img {
+        margin-top: 50px;
+        max-width: 345px;
+        max-height: 365px;
+    }
+
+    .personal-text {
+        font-size: 12px;
+    }
+
+    footer {
+        padding: 0px 15px;
+        padding-top: 30px;
+        background-color: #9ac6e3;
+        background: linear-gradient(#9ac6e3, rgba(0, 0, 0, 0.5));
+    }
+
+    .mobile-block {
+        margin-top: 20px;
+        margin-left: 95px;
+    }
+
+    .form-secrion > p {
+        font-size: 16px;
+        font-weight: var(--font-weight-semi-bold);
+    }
+
+    .header-menu a {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .advantage-desc {
+        align-self: center;
+        text-align: justify;
+        width: 310px;
+    }
+
+    .contact-item span:last-child {
+        font-size: 20px;
+        font-weight: var(--font-weight-bold);
+        margin-left: 5px;
     }
 }
