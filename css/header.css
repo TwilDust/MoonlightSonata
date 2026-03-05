@@ -71,7 +71,7 @@ header {
     display: none;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 426px) {
     header {
         min-height: 85px;
         background-color: #9ac6e3;
